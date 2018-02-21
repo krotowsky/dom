@@ -23,14 +23,14 @@ class Transaction
 
     /**
      * @var int
-     * @ORM\ManyToOne(targetEntity="User", inversedBy="transactions")
+     *
      * @ORM\Column(name="user_id", type="integer")
      */
     private $userId;
 
     /**
      * @var int
-     * @ORM\ManyToOne(targetEntity="AccountType", inversedBy="transactions")
+     *
      * @ORM\Column(name="account_type_id", type="integer")
      */
     private $accountTypeId;
@@ -59,27 +59,27 @@ class Transaction
     /**
      * @var string
      *
-     * @ORM\Column(name="transaction_value", type="decimal", precision=2, scale=0)
+     * @ORM\Column(name="transaction_value", type="string")
      */
     private $transactionValue;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="transaction_saldo", type="decimal", precision=2, scale=0)
+     * @ORM\Column(name="transaction_saldo", type="string")
      */
     private $transactionSaldo;
 
     /**
      * @var int
-     * @ORM\ManyToOne(targetEntity="Category", inversedBy="transactions")
+     *
      * @ORM\Column(name="category_id", type="integer")
      */
     private $categoryId;
 
     /**
      * @var int
-     * @ORM\ManyToOne(targetEntity="TransactionType", inversedBy="transactions")
+     *
      * @ORM\Column(name="transaction_type_id", type="integer")
      */
     private $transactionTypeId;
@@ -93,10 +93,86 @@ class Transaction
 
     /**
      * @var int
-     * @ORM\ManyToOne(targetEntity="Status", inversedBy="transactions")
+     *
      * @ORM\Column(name="status_id", type="integer")
      */
     private $statusId;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Category", inversedBy="transactions")
+     * @ORM\JoinColumn(name="category_id", referencedColumnName="id")
+     */
+    private $category;
+
+    /**
+     * Get category
+     *
+     * @return mixed
+     */
+    public function getCategory(){
+        return $this->category;
+    }
+
+    /**
+     * @ORM\ManyToOne(targetEntity="AccountType", inversedBy="transactions")
+     * @ORM\JoinColumn(name="account_id", referencedColumnName="id")
+     */
+    private $accountType;
+
+    /**
+     * Get AccountType
+     *
+     * @return mixed
+     */
+    public function getAccountType(){
+        return $this->accountType;
+    }
+
+    /**
+     * @ORM\ManyToOne(targetEntity="TransactionType", inversedBy="transactions")
+     * @ORM\JoinColumn(name="transaction_type__id", referencedColumnName="id")
+     */
+    private $transactionType;
+
+    /**
+     * Get AccountType
+     *
+     * @return mixed
+     */
+    public function getTransactionType(){
+        return $this->transactionType;
+    }
+
+    /**
+     * @ORM\ManyToOne(targetEntity="User", inversedBy="transactions")
+     * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     */
+    private $user;
+
+    /**
+     * Get AccountType
+     *
+     * @return mixed
+     */
+    public function getUser(){
+        return $this->user;
+    }
+
+    /**
+     * @ORM\ManyToOne(targetEntity="TransactionStatus", inversedBy="transactions")
+     * @ORM\JoinColumn(name="transaction_status_id", referencedColumnName="id")
+     */
+    private $status;
+
+    /**
+     * Get AccountType
+     *
+     * @return mixed
+     */
+    public function getStatus(){
+        return $this->status;
+    }
+
 
 
     /**
