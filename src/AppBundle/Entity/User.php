@@ -4,6 +4,7 @@ namespace AppBundle\Entity;
 
 use FOS\UserBundle\Model\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @ORM\Entity
@@ -18,8 +19,14 @@ class User extends BaseUser
      */
     protected $id;
 
+    /**
+     * @ORM\OneToMany(targetEntity="Transaction", mappedBy="accountTypeId")
+     */
+    private $transactions;
+
     public function __construct()
     {
+        $this->transactions = new ArrayCollection();
         parent::__construct();
     }
 }

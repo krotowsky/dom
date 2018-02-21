@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -12,6 +13,16 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class TransactionType
 {
+    /**
+     * @ORM\OneToMany(targetEntity="Transaction", mappedBy="TransactionType")
+     */
+    private $transactions;
+
+    public function __construct()
+    {
+        $this->transactions = new ArrayCollection();
+    }
+
     /**
      * @var int
      *

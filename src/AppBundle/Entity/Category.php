@@ -3,6 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * Category
@@ -12,6 +13,22 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Category
 {
+    /**
+     * @ORM\OneToMany(targetEntity="AccountType", mappedBy="category")
+     */
+    private $accountTypes;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Transaction", mappedBy="category")
+     */
+    private $transactions;
+
+    public function __construct()
+    {
+        $this->accountTypes = new ArrayCollection();
+        $this->transactions = new ArrayCollection();
+    }
+
     /**
      * @var int
      *
