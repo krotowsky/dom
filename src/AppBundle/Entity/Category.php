@@ -5,12 +5,12 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * TransactionType
+ * Category
  *
- * @ORM\Table(name="transaction_type")
- * @ORM\Entity(repositoryClass="AppBundle\Repository\TransactionTypeRepository")
+ * @ORM\Table(name="category")
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\CategoryRepository")
  */
-class TransactionType
+class Category
 {
     /**
      * @var int
@@ -51,7 +51,7 @@ class TransactionType
      *
      * @param string $name
      *
-     * @return TransactionType
+     * @return Category
      */
     public function setName($name)
     {
@@ -75,7 +75,7 @@ class TransactionType
      *
      * @param \DateTime $createdAt
      *
-     * @return TransactionType
+     * @return Category
      */
     public function setCreatedAt($createdAt)
     {
