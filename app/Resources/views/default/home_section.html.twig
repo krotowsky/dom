@@ -1,0 +1,155 @@
+{% extends 'default/index.html.twig' %}
+{% block home_section %}
+   <section class="dashboard-counts section-padding">
+      <div class="container">
+         <div class="row">
+            <!-- Count item widget-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-12">
+               <div class="wrapper count-title d-flex">
+                  <div class="icon"><i class="icon-user"></i></div>
+                  <div class="name"><strong class="text-uppercase">Portfel</strong><span>Last 7 days</span>
+                     <div class="count-number">25</div>
+                  </div>
+               </div>
+            </div>
+            <!-- Count item widget-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-12">
+               <div class="wrapper count-title d-flex">
+                  <div class="icon"><i class="icon-picture"></i></div>
+                  <div class="name"><strong class="text-uppercase">Konto PKO</strong><span>Last 5 days</span>
+                     <div class="count-number">400</div>
+                  </div>
+               </div>
+            </div>
+            <!-- Count item widget-->
+            <div class="col-xl-3 col-md-3 col-sm-6 col-12">
+               <div class="wrapper count-title d-flex">
+                  <div class="icon"><i class="icon-check"></i></div>
+                  <div class="name"><strong class="text-uppercase">Skarbonka</strong><span>Last 2 months</span>
+                     <div class="count-number">342</div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-md-3 col-sm-6 col-12">
+               <div class="wrapper count-title d-flex">
+                  <div class="icon"><i class="icon-check"></i></div>
+                  <div class="name"><strong class="text-uppercase">Skarbonka</strong><span>Last 2 months</span>
+                     <div class="count-number">342</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4">
+               <div class="card">
+                  <div class="card-body text-center">
+                     <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary">Form in simple modal </button>
+                     <!-- Modal-->
+                     <div id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade text-left">
+                        <div role="document" class="modal-dialog">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 id="exampleModalLabel" class="modal-title">Signin Modal</h5>
+                                 <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                              </div>
+                              <div class="modal-body">
+                                 <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                 <form>
+                                    <div class="form-group">
+                                       <label>Email</label>
+                                       <input type="email" placeholder="Email Address" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                       <label>Password</label>
+                                       <input type="password" placeholder="Password" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                       <input type="submit" value="Signin" class="btn btn-primary">
+                                    </div>
+                                 </form>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" data-dismiss="modal" class="btn btn-secondary">Close</button>
+                                 <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <!-- Income-->
+               <div class="card income text-center">
+                  <div class="icon"><i class="icon-line-chart"></i></div>
+                  <div class="number">126,418</div><strong class="text-primary">Przchód</strong>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <!-- User Actibity-->
+               <div class="card user-activity">
+                  <h2 class="display h4">User Activity</h2>
+                  <div class="number">210</div>
+                  <h3 class="h4 display">Social Users</h3>
+                  <div class="progress">
+                     <div role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar bg-primary"></div>
+                  </div>
+                  <div class="page-statistics d-flex justify-content-between">
+                     <div class="page-statistics-left"><span>Pages Visits</span><strong>230</strong></div>
+                     <div class="page-statistics-right"><span>New Visits</span><strong>73.4%</strong></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section>
+      <div class="container">
+         <div class="col-lg-12">
+            <div class="card">
+               <div class="card-header">
+                  <h4>Striped table with hover effect</h4>
+               </div>
+               <div class="card-body">
+                  <div class="table-responsive">
+                     <table class="table table-striped table-hover">
+                        <thead>
+                        <tr>
+                           <th>#</th>
+                           <th>First Name</th>
+                           <th>Last Name</th>
+                           <th>Username</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                           <th scope="row">1</th>
+                           <td>Mark</td>
+                           <td>Otto</td>
+                           <td>@mdo</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">2</th>
+                           <td>Jacob</td>
+                           <td>Thornton</td>
+                           <td>@fat</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">3</th>
+                           <td>Larry</td>
+                           <td>the Bird</td>
+                           <td>@twitter                            </td>
+                        </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+{% endblock %}

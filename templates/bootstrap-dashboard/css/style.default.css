@@ -1438,7 +1438,7 @@ button {
 .login-page .form-outer,
 .register-page .form-outer {
   min-height: 100vh;
-  max-width: 600px;
+  max-width: 200px;
   margin: 0 auto;
   padding: 20px 0;
   position: relative;

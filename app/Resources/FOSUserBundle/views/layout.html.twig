@@ -1,6 +1,38 @@
-{% block title %}Demo Application{% endblock %}
+{% block stylesheets %}
+    <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/fontastic.css') }}" rel="stylesheet" />
+    <link href="{{ asset('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700') }}" rel="stylesheet" />
+    <link href="{{ asset('css/grasp_mobile_progress_circle-1.0.0.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/style.default.css') }}" rel="stylesheet" />
+    <link href="{{ asset('img/favicon.ico') }}" rel="shortcut icon" />
+{% endblock %}
 
 {% block content %}
-    {% block fos_user_content %}
-    {% endblock %}
+    <div class="page login-page">
+        <div class="container">
+            <div class="form-outer text-center  align-items-center">
+                <div class="form-inner">
+                    <div class="logo text-uppercase"><span>Finanse</span><strong class="text-primary"> To Proste!</strong></div>
+                    <p>System zarządzania finansami gospodarstwa domowego.</p>
+                        {% block fos_user_content %}{% endblock %}
+                </div>
+                <div class="copyrights text-center">
+                    <p>Designed by <a href="http://krotowski.eu" class="external">krotowski.eu</a> &copy; 2018</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+    <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('vendor/popper.js/umd/popper.min.js') }}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/grasp_mobile_progress_circle-1.0.0.min.js') }}"></script>
+    <script src="{{ asset('vendor/jquery.cookie/jquery.cookie.js') }}"></script>
+    <script src="{{ asset('vendor/chart.js/Chart.min.js') }}"></script>
+    <script src="{{ asset('vendor/jquery-validation/jquery.validate.min.js') }}"></script>
+    <script src="{{ asset('vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+    <script src="{{ asset('js/charts-home.js') }}"></script>
+    <script src="{{ asset('js/front.js') }}"></script>
 {% endblock %}
