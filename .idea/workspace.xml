@@ -2,176 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0df49295-46c3-4f2f-8399-221823c946c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/base.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/header.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/home_section.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/nav.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/css/custom.css" afterPath="$PROJECT_DIR$/web/css/custom.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/css/fontastic.css" afterPath="$PROJECT_DIR$/web/css/fontastic.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/css/grasp_mobile_progress_circle-1.0.0.min.css" afterPath="$PROJECT_DIR$/web/css/grasp_mobile_progress_circle-1.0.0.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/css/style.blue.css" afterPath="$PROJECT_DIR$/web/css/style.blue.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/css/style.default.css" afterPath="$PROJECT_DIR$/web/css/style.default.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/css/style.green.css" afterPath="$PROJECT_DIR$/web/css/style.green.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/css/style.pink.css" afterPath="$PROJECT_DIR$/web/css/style.pink.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/css/style.red.css" afterPath="$PROJECT_DIR$/web/css/style.red.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/css/style.sea.css" afterPath="$PROJECT_DIR$/web/css/style.sea.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/css/style.violet.css" afterPath="$PROJECT_DIR$/web/css/style.violet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/data/countries.json" afterPath="$PROJECT_DIR$/web/data/countries.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/fonts/dashboard.eot" afterPath="$PROJECT_DIR$/web/icons-reference/fonts/dashboard.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/fonts/dashboard.svg" afterPath="$PROJECT_DIR$/web/icons-reference/fonts/dashboard.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/fonts/dashboard.ttf" afterPath="$PROJECT_DIR$/web/icons-reference/fonts/dashboard.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/fonts/dashboard.woff" afterPath="$PROJECT_DIR$/web/icons-reference/fonts/dashboard.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/icons-reference/fonts/dashboard.eot" afterPath="$PROJECT_DIR$/web/fonts/dashboard.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/icons-reference/fonts/dashboard.svg" afterPath="$PROJECT_DIR$/web/fonts/dashboard.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/icons-reference/fonts/dashboard.ttf" afterPath="$PROJECT_DIR$/web/fonts/dashboard.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/icons-reference/fonts/dashboard.woff" afterPath="$PROJECT_DIR$/web/fonts/dashboard.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/icons-reference/icons-reference.html" afterPath="$PROJECT_DIR$/web/icons-reference/icons-reference.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/icons-reference/styles.css" afterPath="$PROJECT_DIR$/web/icons-reference/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/avatar-1.jpg" afterPath="$PROJECT_DIR$/web/img/avatar-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/avatar-2.jpg" afterPath="$PROJECT_DIR$/web/img/avatar-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/avatar-3.jpg" afterPath="$PROJECT_DIR$/web/img/avatar-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/avatar-4.jpg" afterPath="$PROJECT_DIR$/web/img/avatar-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/avatar-5.jpg" afterPath="$PROJECT_DIR$/web/img/avatar-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/avatar-6.jpg" afterPath="$PROJECT_DIR$/web/img/avatar-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/favicon.ico" afterPath="$PROJECT_DIR$/web/img/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/mockup1.jpg" afterPath="$PROJECT_DIR$/web/img/mockup1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/mockup2.jpg" afterPath="$PROJECT_DIR$/web/img/mockup2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/mockup3.jpg" afterPath="$PROJECT_DIR$/web/img/mockup3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/mockup4.jpg" afterPath="$PROJECT_DIR$/web/img/mockup4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/mockup5.jpg" afterPath="$PROJECT_DIR$/web/img/mockup5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/mockup6.jpg" afterPath="$PROJECT_DIR$/web/img/mockup6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/mockup7.jpg" afterPath="$PROJECT_DIR$/web/img/mockup7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/img/template-mac.png" afterPath="$PROJECT_DIR$/web/img/template-mac.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/js/charts-custom.js" afterPath="$PROJECT_DIR$/web/js/charts-custom.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/js/charts-home.js" afterPath="$PROJECT_DIR$/web/js/charts-home.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/js/front.js" afterPath="$PROJECT_DIR$/web/js/front.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/js/grasp_mobile_progress_circle-1.0.0.min.js" afterPath="$PROJECT_DIR$/web/js/grasp_mobile_progress_circle-1.0.0.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/bootstrap/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.bundle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.bundle.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/chart.js/Chart.bundle.js" afterPath="$PROJECT_DIR$/web/vendor/chart.js/Chart.bundle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/chart.js/Chart.bundle.min.js" afterPath="$PROJECT_DIR$/web/vendor/chart.js/Chart.bundle.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/chart.js/Chart.js" afterPath="$PROJECT_DIR$/web/vendor/chart.js/Chart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/chart.js/Chart.min.js" afterPath="$PROJECT_DIR$/web/vendor/chart.js/Chart.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/font-awesome/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/web/vendor/font-awesome/HELP-US-OUT.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/web/vendor/font-awesome/css/font-awesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/web/vendor/font-awesome/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/additional-methods.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/additional-methods.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/jquery.validate.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/jquery.validate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/jquery.validate.min.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/jquery.validate.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_ar.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_az.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_az.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_bg.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_bn_BD.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_bn_BD.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_ca.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_cs.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_cs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_da.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_da.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_de.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_el.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_el.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_es.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_es_AR.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_es_AR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_es_PE.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_es_PE.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_et.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_et.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_eu.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_eu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_fa.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_fa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_fi.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_fr.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_ge.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_ge.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_gl.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_gl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_he.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_he.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_hr.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_hu.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_hy_AM.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_hy_AM.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_id.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_is.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_is.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_it.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_ja.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_ka.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_ka.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_kk.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_kk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_ko.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_lt.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_lv.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_mk.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_mk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_my.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_my.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_nl.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_no.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_no.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_pl.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_pt_BR.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_pt_BR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_pt_PT.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_pt_PT.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_ro.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_ro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_ru.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_sd.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_sd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_si.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_si.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_sk.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_sl.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_sl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_sr.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_sr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_sr_lat.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_sr_lat.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_sv.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_th.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_tj.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_tj.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_tr.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_uk.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_uk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_ur.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_ur.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_vi.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_zh.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_zh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/messages_zh_TW.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/messages_zh_TW.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/methods_de.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/methods_de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/methods_es_CL.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/methods_es_CL.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/methods_fi.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/methods_fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/methods_nl.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/methods_nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery-validation/localization/methods_pt.js" afterPath="$PROJECT_DIR$/web/vendor/jquery-validation/localization/methods_pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery.cookie/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/web/vendor/jquery.cookie/MIT-LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery.cookie/component.json" afterPath="$PROJECT_DIR$/web/vendor/jquery.cookie/component.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery.cookie/cookie.jquery.json" afterPath="$PROJECT_DIR$/web/vendor/jquery.cookie/cookie.jquery.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery.cookie/jquery.cookie.js" afterPath="$PROJECT_DIR$/web/vendor/jquery.cookie/jquery.cookie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery/core.js" afterPath="$PROJECT_DIR$/web/vendor/jquery/core.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/web/vendor/jquery/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/web/vendor/jquery/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery/jquery.slim.js" afterPath="$PROJECT_DIR$/web/vendor/jquery/jquery.slim.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/jquery/jquery.slim.min.js" afterPath="$PROJECT_DIR$/web/vendor/jquery/jquery.slim.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" afterPath="$PROJECT_DIR$/web/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" afterPath="$PROJECT_DIR$/web/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js" afterPath="$PROJECT_DIR$/web/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/malihu-custom-scrollbar-plugin/mCSB_buttons.png" afterPath="$PROJECT_DIR$/web/vendor/malihu-custom-scrollbar-plugin/mCSB_buttons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/esm/popper-utils.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/esm/popper-utils.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/esm/popper-utils.min.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/esm/popper-utils.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/esm/popper.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/esm/popper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/esm/popper.min.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/esm/popper.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/popper-utils.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/popper-utils.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/popper-utils.min.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/popper-utils.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/popper.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/popper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/popper.min.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/popper.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/umd/popper-utils.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/umd/popper-utils.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/umd/popper-utils.min.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/umd/popper-utils.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/umd/popper.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/umd/popper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/vendor/popper.js/umd/popper.min.js" afterPath="$PROJECT_DIR$/web/vendor/popper.js/umd/popper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Emails/registration.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/MailerController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bootstrap-dashboard/icons-reference/fonts/dashboard.eot" afterPath="$PROJECT_DIR$/templates/bootstrap-dashboard/icons-reference/fonts/dashboard.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f64c627f-948f-4e8a-9524-51b74f7668bb.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/f64c627f-948f-4e8a-9524-51b74f7668bb.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/header.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/header.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/home_section.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/home_section.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/nav.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/nav.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bootstrap-dashboard/css/style.default.css" afterPath="$PROJECT_DIR$/templates/bootstrap-dashboard/css/style.default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bootstrap-dashboard/css/style.green.css" afterPath="$PROJECT_DIR$/templates/bootstrap-dashboard/css/style.green.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bootstrap-dashboard/login.html" afterPath="$PROJECT_DIR$/templates/bootstrap-dashboard/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bootstrap-dashboard/tables.html" afterPath="$PROJECT_DIR$/templates/bootstrap-dashboard/tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -230,37 +73,33 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="finanse@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="finanse" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="fos_user" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="351">
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding>
-                <element signature="e#40#73#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_section.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/home_section.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="91" column="30" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bootstrap-dashboard/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="304" column="18" lean-forward="false" selection-start-line="290" selection-start-column="12" selection-end-line="304" selection-end-column="18" />
+            <state relative-caret-position="678">
+              <caret line="79" column="14" lean-forward="false" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -278,6 +117,9 @@
       <find>Modal</find>
       <find>incom</find>
       <find>user</find>
+      <find>B</find>
+      <find>hre</find>
+      <find>href</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -297,12 +139,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f64c627f-948f-4e8a-9524-51b74f7668bb/console.sql" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f64c627f-948f-4e8a-9524-51b74f7668bb/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Category.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/AccountType.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/TransactionType.php" />
@@ -310,13 +150,8 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Transaction.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/section.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/nav.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/header.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/bootstrap-dashboard/css/style.green.css" />
@@ -326,7 +161,17 @@
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login_content.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/templates/bootstrap-dashboard/tables.html" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/header.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/nav.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/home_section.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/form.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/MailerController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/Emails/registration.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
       </list>
     </option>
   </component>
@@ -380,11 +225,133 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-dashboard" />
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Security" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventListener" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,6 +397,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -451,6 +440,46 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finanse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -467,6 +496,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -477,10 +507,11 @@
       <recent name="$PROJECT_DIR$/web/css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Resources/FOSUserBundle" />
+      <recent name="$PROJECT_DIR$/app/Resources/views/Emails" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Controller" />
       <recent name="$PROJECT_DIR$/app/Resources/views/default" />
+      <recent name="$PROJECT_DIR$/app/Resources/FOSUserBundle" />
       <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/app/Resources/FOSUserBundle/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -579,7 +610,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519225716874</updated>
-      <workItem from="1519225717983" duration="27431000" />
+      <workItem from="1519225717983" duration="37464000" />
     </task>
     <task id="LOCAL-00001" summary="FOSUserBundle">
       <created>1519228408742</created>
@@ -616,35 +647,42 @@
       <option name="project" value="LOCAL" />
       <updated>1519234933965</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Category">
+      <created>1519256115314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519256115314</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27431000" />
+    <option name="totallyTimeSpent" value="37464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15974441" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17465389" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -661,163 +699,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="Category" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/4a159216/f64c627f-948f-4e8a-9524-51b74f7668bb/finanse.fos_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4a159216/f64c627f-948f-4e8a-9524-51b74f7668bb/finanse.transaction_status">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4a159216/f64c627f-948f-4e8a-9524-51b74f7668bb/finanse.transaction_type">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4a159216/f64c627f-948f-4e8a-9524-51b74f7668bb/finanse.account_type">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4a159216/f64c627f-948f-4e8a-9524-51b74f7668bb/finanse.transaction">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Transaction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/41000d1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/be5f3b1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Security/UserProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Security/LoginManagerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Security/LoginManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1194">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/a99728d.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -830,14 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
           <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="83" column="19" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -876,34 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/nav.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="58" lean-forward="false" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -971,16 +826,6 @@
         <state relative-caret-position="324">
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="29" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#40#73#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,26 +904,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bootstrap-dashboard/forms.html">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="226" column="12" lean-forward="false" selection-start-line="226" selection-start-column="12" selection-end-line="266" selection-end-column="18" />
+        <state relative-caret-position="162">
+          <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bootstrap-dashboard/index.html">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="304" column="18" lean-forward="false" selection-start-line="290" selection-start-column="12" selection-end-line="304" selection-end-column="18" />
+        <state relative-caret-position="372">
+          <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="e#40#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/nav.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/home_section.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="91" column="30" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        <state relative-caret-position="214">
+          <caret line="49" column="131" lean-forward="false" selection-start-line="49" selection-start-column="131" selection-end-line="49" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bootstrap-dashboard/forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="556" column="18" lean-forward="false" selection-start-line="267" selection-start-column="12" selection-end-line="556" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="297" column="6" lean-forward="false" selection-start-line="297" selection-start-column="6" selection-end-line="297" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/4a159216/f64c627f-948f-4e8a-9524-51b74f7668bb/finanse.fos_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bootstrap-dashboard/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="304" column="18" lean-forward="false" selection-start-line="290" selection-start-column="12" selection-end-line="304" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/Emails/registration.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Security/EmailUserProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Mailer/Mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Security/UserProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1014">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ResettingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="87" column="64" lean-forward="false" selection-start-line="87" selection-start-column="64" selection-end-line="87" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOSUserEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="244" column="10" lean-forward="false" selection-start-line="244" selection-start-column="10" selection-end-line="244" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/EventListener/ResettingListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/MailerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Security/LoginManagerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Security/LoginManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1194">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserManagerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="79" column="14" lean-forward="false" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
           <folding />
         </state>
       </provider>

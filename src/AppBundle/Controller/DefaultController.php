@@ -4,24 +4,63 @@ namespace AppBundle\Controller;
 
 use AppBundle\Entity\Transaction;
 use Doctrine\DBAL\Driver\PDOException;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Doctrine\DBAL\Exception\DatabaseObjectExistsException;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\HttpFoundation\File\Exception\AccessDeniedException;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Session\Session;
+use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Validator\Constraints\DateTime;
 
 class DefaultController extends Controller
 {
+
     /**
      * @Route("/", name="homepage")
      */
     public function indexAction(Request $request)
     {
+
+        $user = $this->get('security.token_storage')->getToken()->getUser();
+        if (!is_object($user) || !$user instanceof UserInterface) {
+            throw new AccessDeniedException(
+                'This user does not have access to this section.');
+        }
+
         // replace this example code with whatever you need
         return $this->render('default/home_section.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+            'current_user' => $user = $this->get('security.token_storage')->getToken()->getUser(),
         ]);
+    }
+
+    /**
+     * @Route("/create_income", name="create_income")
+     * @param Request $request
+     * @return Response
+     */
+    public function newAction(Request $request)
+    {
+        // creates a task and gives it some dummy data for this example
+        $task = new Transaction();
+        $task->setName('Write a blog post');
+        $task->setCreatedAt(new \DateTime('now'));
+
+        $form = $this->createFormBuilder($task)
+            ->add('Name', TextType::class)
+            ->add('createdAt', DateType::class)
+            ->add('save', SubmitType::class, array('label' => 'Create Task'))
+            ->getForm();
+
+        return $this->render('default/form.html.twig', array(
+            'form' => $form->createView(),
+            'current_user' => $user = $this->get('security.token_storage')->getToken()->getUser(),
+        ));
     }
 
     /**

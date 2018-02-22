@@ -4,11 +4,11 @@
             <!-- Sidebar Header    -->
             <div class="sidenav-header d-flex align-items-center justify-content-center">
                 <!-- User Info-->
-                <div class="sidenav-header-inner text-center"><img src="img/avatar-1.jpg" alt="person" class="img-fluid rounded-circle">
-                    <h2 class="h5">Anderson Hardy</h2><span>Web Developer</span>
+                <div class="sidenav-header-inner text-center"><img src="{{ current_user.avatarUrl }}" alt="person" class="img-fluid rounded-circle">
+                    <h2 class="h5">{{ current_user.username }}</h2><span>{{ current_user.email }}</span>
                 </div>
                 <!-- Small Brand information, appears on minimized sidebar-->
-                <div class="sidenav-header-logo"><a href="index.html" class="brand-small text-center"> <strong>B</strong><strong class="text-primary">D</strong></a></div>
+                <div class="sidenav-header-logo"><a href="{{ path('homepage') }}" class="brand-small text-center"> <strong>F</strong><strong class="text-primary">D</strong></a></div>
             </div>
             <!-- Sidebar Navigation Menus-->
             <div class="main-menu">

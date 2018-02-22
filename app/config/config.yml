@@ -72,8 +72,12 @@ fos_user:
     firewall_name: main
     user_class: AppBundle\Entity\User
     from_email:
-        address: "%mailer_user%"
-        sender_name: "%mailer_user%"
+        address: system.finanse@gmail.com
+        sender_name: Finanse
+    registration:
+            confirmation:
+                enabled: true
+    resetting:
 assetic:
     debug:          '%kernel.debug%'
     use_controller: '%kernel.debug%'

@@ -20,6 +20,29 @@ class User extends BaseUser
     protected $id;
 
     /**
+     * @ORM\Column(name="avatar_url", type="string", nullable=true)
+     */
+    protected $avatarUrl;
+
+    /**
+     * get AvatarUrl
+     *
+     * @return mixed
+     */
+    public function getAvatarUrl(){
+        return $this->avatarUrl;
+    }
+
+    /**
+     * set AvatarUrl
+     *
+     * @param $avatarUrl
+     */
+    public function setAvaratUrl($avatarUrl){
+        $this->avatarUrl = $avatarUrl;
+    }
+
+    /**
      * @ORM\OneToMany(targetEntity="Transaction", mappedBy="accountTypeId")
      */
     private $transactions;
