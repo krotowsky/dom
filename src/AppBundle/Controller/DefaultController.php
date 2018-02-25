@@ -2,10 +2,17 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\AccountType;
 use AppBundle\Entity\Transaction;
+use AppBundle\Entity\TransactionType;
+use AppBundle\Entity\User;
+use AppBundle\Repository\AccountTypeRepository;
 use Doctrine\DBAL\Driver\PDOException;
+use function Sodium\version_string;
+use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
-use Symfony\Component\Form\Extension\Core\Type\DateType;
+use Symfony\Component\Form\Extension\Core\Type\NumberType;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Doctrine\DBAL\Exception\DatabaseObjectExistsException;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -44,23 +51,85 @@ class DefaultController extends Controller
      * @param Request $request
      * @return Response
      */
-    public function newAction(Request $request)
-    {
-        // creates a task and gives it some dummy data for this example
-        $task = new Transaction();
-        $task->setName('Write a blog post');
-        $task->setCreatedAt(new \DateTime('now'));
+    public function newAction(Request $request){
 
+        $user = $this->get('security.token_storage')->getToken()->getUser();
+        $transactionType = $this->getDoctrine()->getRepository(TransactionType::class)
+            ->findOneBy([
+                'name' => 'income'
+            ]);
+        $task = new Transaction();
+        $task->setCreatedAt(new \DateTime('now'));
+        $task->setTransactionSaldo(15.12);
+        $task->setTransactionTypeId($transactionType);
         $form = $this->createFormBuilder($task)
-            ->add('Name', TextType::class)
-            ->add('createdAt', DateType::class)
-            ->add('save', SubmitType::class, array('label' => 'Create Task'))
+            ->add('Name', TextType::class, array('label' => 'Tytuł'))
+            ->add('Description', TextType::class,array('label' => 'Opis'))
+            ->add('TransactionValue', NumberType::class,array('label' => 'Wartość'))
+            ->add('AccountNumber', TextType::class,array('label' => 'Numer konta'))
+            ->add('CategoryId', EntityType::class, array(
+                'class' => 'AppBundle:Category',
+                'label' => 'Kategoria',
+                'choice_label' => 'name',
+                'choice_value' => 'id'
+            ))
+            ->add('AccountTypeId', EntityType::class, array(
+                'class' => 'AppBundle:AccountType',
+                'label' => 'Konto',
+                'choice_label' => 'name',
+                'choice_value' => 'id'
+            ))
+            ->add('save', SubmitType::class, array('label' => 'Zapisz'))
             ->getForm();
 
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $task = $form->getData();
+            $this->saveAction($task,$user);
+
+            $this->addFlash(
+                'notice',
+                'Zapisano!'
+            );
+
+            return $this->redirectToRoute('create_income');
+
+        }
         return $this->render('default/form.html.twig', array(
             'form' => $form->createView(),
-            'current_user' => $user = $this->get('security.token_storage')->getToken()->getUser(),
+            'current_user' => $user = $this->get('security.token_storage')->getToken()->getUser()
         ));
+    }
+
+    /**
+     * @param $data
+     * @param $user
+     * @return bool
+     */
+    public function saveAction($data, $user){
+
+        $userId = $this->getDoctrine()->getRepository(User::class)
+            ->findOneBy([
+                'username' => $user->getUsername()
+            ]);
+        $em = $this->getDoctrine()->getManager();
+        $transaction = new Transaction();
+        $transaction->setUserId($userId);
+        $transaction->setName($data->GetName());
+        $transaction->setDescription($data->getDescription());
+        $transaction->setAccountNumber($data->getAccountNumber());
+        $transaction->setTransactionValue($data->getTransactionValue());
+        $transaction->setTransactionSaldo($data->getTransactionSaldo());
+        $transaction->setCreatedAt($data->getCreatedAt());
+        $transaction->setStatusId($data->getStatusId());
+        $transaction->setCategoryId($data->getCategoryId());
+        $transaction->setAccountTypeId($data->getAccountTypeId());
+        $transaction->setTransactionTypeId($data->getTransactionTypeId());
+        $em->persist($transaction);
+        $em->flush();
+
+        return true;
     }
 
     /**

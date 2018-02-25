@@ -20,6 +20,13 @@ class User extends BaseUser
     protected $id;
 
     /**
+     * @return mixed
+     */
+    public function getUserId(){
+        return $this->id;
+    }
+
+    /**
      * @ORM\Column(name="avatar_url", type="string", nullable=true)
      */
     protected $avatarUrl;
@@ -43,7 +50,7 @@ class User extends BaseUser
     }
 
     /**
-     * @ORM\OneToMany(targetEntity="Transaction", mappedBy="accountTypeId")
+     * @ORM\OneToMany(targetEntity="Transaction", mappedBy="user_id")
      */
     private $transactions;
 

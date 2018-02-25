@@ -21,19 +21,6 @@ class Transaction
      */
     private $id;
 
-    /**
-     * @var int
-     *
-     * @ORM\Column(name="user_id", type="integer")
-     */
-    private $userId;
-
-    /**
-     * @var int
-     *
-     * @ORM\Column(name="account_type_id", type="integer")
-     */
-    private $accountTypeId;
 
     /**
      * @var string
@@ -59,30 +46,30 @@ class Transaction
     /**
      * @var string
      *
-     * @ORM\Column(name="transaction_value", type="string")
+     * @ORM\Column(name="transaction_value", type="decimal", precision=19, scale=2)
      */
     private $transactionValue;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="transaction_saldo", type="string")
+     * @ORM\Column(name="transaction_saldo", type="decimal", precision=19, scale=2)
      */
     private $transactionSaldo;
 
-    /**
-     * @var int
-     *
-     * @ORM\Column(name="category_id", type="integer")
-     */
-    private $categoryId;
+//    /**
+//     * @var int
+//     *
+//     * @ORM\Column(name="category_id", type="integer")
+//     */
+//    private $categoryId;
 
-    /**
-     * @var int
-     *
-     * @ORM\Column(name="transaction_type_id", type="integer")
-     */
-    private $transactionTypeId;
+//    /**
+//     * @var int
+//     *
+//     * @ORM\Column(name="transaction_type_id", type="integer")
+//     */
+//    private $transactionTypeId;
 
     /**
      * @var \DateTime
@@ -92,85 +79,83 @@ class Transaction
     private $createdAt;
 
     /**
-     * @var int
-     *
-     * @ORM\Column(name="status_id", type="integer")
-     */
-    private $statusId;
-
-    /**
      * @ORM\ManyToOne(targetEntity="Category", inversedBy="transactions")
      * @ORM\JoinColumn(name="category_id", referencedColumnName="id")
      */
-    private $category;
+    private $categoryId;
 
     /**
      * Get category
      *
      * @return mixed
      */
-    public function getCategory(){
-        return $this->category;
+    public function getCategoryId(){
+        return $this->categoryId;
     }
 
     /**
      * @ORM\ManyToOne(targetEntity="AccountType", inversedBy="transactions")
-     * @ORM\JoinColumn(name="account_id", referencedColumnName="id")
+     * @ORM\JoinColumn(name="account_type_id", referencedColumnName="id")
      */
-    private $accountType;
+    private $accountTypeId;
 
     /**
-     * Get AccountType
+     * Get AccountTypeId
      *
      * @return mixed
      */
-    public function getAccountType(){
-        return $this->accountType;
+    public function getAccountTypeId(){
+        return $this->accountTypeId;
     }
 
     /**
      * @ORM\ManyToOne(targetEntity="TransactionType", inversedBy="transactions")
-     * @ORM\JoinColumn(name="transaction_type__id", referencedColumnName="id")
+     * @ORM\JoinColumn(name="transaction_type_id", referencedColumnName="id")
      */
-    private $transactionType;
+    private $transactionTypeId;
 
     /**
-     * Get AccountType
+     * Get TransactionTypeId
      *
      * @return mixed
      */
-    public function getTransactionType(){
-        return $this->transactionType;
+    public function getTransactionTypeId(){
+        return $this->transactionTypeId;
     }
 
     /**
      * @ORM\ManyToOne(targetEntity="User", inversedBy="transactions")
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
-    private $user;
+    private $userId;
 
     /**
-     * Get AccountType
-     *
      * @return mixed
      */
-    public function getUser(){
-        return $this->user;
+    public function getUserId(){
+        return $this->userId;
+    }
+
+    /**
+     * @param $userId
+     */
+    public function setUserId($userId){
+        $this->userId = $userId;
     }
 
     /**
      * @ORM\ManyToOne(targetEntity="TransactionStatus", inversedBy="transactions")
      * @ORM\JoinColumn(name="transaction_status_id", referencedColumnName="id")
      */
-    private $status;
+    private $statusId;
 
     /**
      * Get AccountType
      *
      * @return mixed
      */
-    public function getStatus(){
-        return $this->status;
+    public function getStatusId(){
+        return $this->statusId;
     }
 
 
@@ -186,51 +171,14 @@ class Transaction
     }
 
     /**
-     * Set userId
-     *
-     * @param integer $userId
-     *
-     * @return Transaction
-     */
-    public function setUserId($userId)
-    {
-        $this->userId = $userId;
-
-        return $this;
-    }
-
-    /**
-     * Get userId
-     *
-     * @return int
-     */
-    public function getUserId()
-    {
-        return $this->userId;
-    }
-
-    /**
      * Set accountTypeId
      *
      * @param integer $accountTypeId
      *
-     * @return Transaction
      */
     public function setAccountTypeId($accountTypeId)
     {
         $this->accountTypeId = $accountTypeId;
-
-        return $this;
-    }
-
-    /**
-     * Get accountTypeId
-     *
-     * @return int
-     */
-    public function getAccountTypeId()
-    {
-        return $this->accountTypeId;
     }
 
     /**
@@ -267,8 +215,6 @@ class Transaction
     public function setDescription($description)
     {
         $this->description = $description;
-
-        return $this;
     }
 
     /**
@@ -368,16 +314,6 @@ class Transaction
     }
 
     /**
-     * Get categoryId
-     *
-     * @return int
-     */
-    public function getCategoryId()
-    {
-        return $this->categoryId;
-    }
-
-    /**
      * Set transactionTypeId
      *
      * @param integer $transactionTypeId
@@ -387,19 +323,8 @@ class Transaction
     public function setTransactionTypeId($transactionTypeId)
     {
         $this->transactionTypeId = $transactionTypeId;
-
-        return $this;
     }
 
-    /**
-     * Get transactionTypeId
-     *
-     * @return int
-     */
-    public function getTransactionTypeId()
-    {
-        return $this->transactionTypeId;
-    }
 
     /**
      * Set createdAt
@@ -437,16 +362,6 @@ class Transaction
         $this->statusId = $statusId;
 
         return $this;
-    }
-
-    /**
-     * Get statusId
-     *
-     * @return int
-     */
-    public function getStatusId()
-    {
-        return $this->statusId;
     }
 }
 
