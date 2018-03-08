@@ -2,6 +2,10 @@
 
 namespace AppBundle\Repository;
 
+use AppBundle\Entity\Category;
+use Doctrine\ORM\EntityManagerInterface;
+use Doctrine\ORM\Mapping\ClassMetadata;
+
 /**
  * CategoryRepository
  *
@@ -10,4 +14,8 @@ namespace AppBundle\Repository;
  */
 class CategoryRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function __construct(EntityManagerInterface $entityManager)
+    {
+        parent::__construct($entityManager, new ClassMetadata(Category::class));
+    }
 }

@@ -1,6 +1,9 @@
 <?php
 
 namespace AppBundle\Repository;
+use AppBundle\Entity\TransactionStatus;
+use Doctrine\ORM\EntityManagerInterface;
+use Doctrine\ORM\Mapping\ClassMetadata;
 
 /**
  * TransactionStatusRepository
@@ -10,4 +13,8 @@ namespace AppBundle\Repository;
  */
 class TransactionStatusRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function __construct(EntityManagerInterface $entityManager)
+    {
+        parent::__construct($entityManager, new ClassMetadata(TransactionStatus::class));
+    }
 }
